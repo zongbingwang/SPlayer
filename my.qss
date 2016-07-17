@@ -1,0 +1,59 @@
+
+/****************按钮部件*******************/
+QPushButton{
+     border-style: outset; /*边框样式*/
+     border-color: rgba(0,0,0,0);/*边框颜色透明*/
+     border-width: 4px;  /*边框宽度为4像素*/
+     border-radius: 10px; /*边框圆角半径*/
+     font:"华文楷体"
+            bold 14px;/*字体*/
+         color:rgba(255, 225, 0, 255);/*字体颜色*/
+     padding: 6px; /*填衬*/
+}
+QPushButton:hover{ /*鼠标悬停在按钮上时*/
+        background-color:rgb(255, 217, 252);
+        border-color: rgba(255, 225, 255, 200);
+        color:rgba(0, 0, 0, 200);
+}
+QPushButton:pressed { /*按钮被按下时*/
+background-color:rgba(141, 244, 238, 255);
+    border-color: rgba(255, 225, 255, 30);
+border-style: inset;
+   color:rgba(0, 0, 0, 100);
+}
+/****************主界面背景*******************/
+
+QTabWidget:pane{
+       color: rgb(135, 88, 255);
+       border-image: url(:/image/img/lanfen.jpg);/*背景图片*/
+       border-top:0px solid #e8f3f9;
+       background:  transparent;
+}
+QWidget#player{
+   color: #b1b1b1;
+    background-color:rgba(141, 244, 238, 255);
+}
+QWidget#Setting{
+   color: #b1b1b1;
+    background-color:rgba(141, 244, 238, 255);
+}
+QMainWindow{
+        border-image: url(:/image/img/lanfen.jpg);/*背景图片*/
+}
+
+
+QMenuBar{
+        border-image: url(:/image/img/lanfen.jpg);
+}
+
+/****************滑块部件*******************/
+QSlider::handle:horizontal { /*水平滑块的手柄*/
+        image: url(:/image/sliderHandle.png);
+ }
+QSlider::sub-page:horizontal { /*水平滑块手柄以前的部分*/
+        border-image: url(:/image/slider.png);/*边框图片*/
+ }
+ /****************列表部件*******************/
+ QListWidget{
+        border-image: url(:/image/img/lanfen.jpg);/*背景图片*/
+}

@@ -1,0 +1,51 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>slider.png</file>
+        <file>sliderHandle.png</file>
+        <file>bg.PNG</file>
+        <file>zoom.png</file>
+        <file>donghua.gif</file>
+        <file>img/skin.png</file>
+        <file>img/close.png</file>
+        <file>img/delete.png</file>
+        <file>img/file.png</file>
+        <file>img/last.png</file>
+        <file>img/maximize.png</file>
+        <file>img/minimize.png</file>
+        <file>img/next.png</file>
+        <file>img/pause.png</file>
+        <file>img/play.png</file>
+        <file>img/stop.png</file>
+        <file>img/red1.jpg</file>
+        <file>img/blue1.jpg</file>
+        <file>img/blue4.jpg</file>
+        <file>img/green1.jpg</file>
+        <file>img/lanfen.jpg</file>
+        <file>img/pink1.jpg</file>
+        <file>img/pink2.jpeg</file>
+        <file>img/purple3.jpg</file>
+        <file>img/purple4.jpg</file>
+        <file>img/timg.jpg</file>
+        <file>img/green.jpg</file>
+        <file>img/purple2.jpg</file>
+        <file>img/purple.jpg</file>
+        <file>img/black.jpg</file>
+        <file>img/gif.png</file>
+        <file>img/set.png</file>
+        <file>img/shot.png</file>
+        <file>img/goforward.png</file>
+        <file>img/screen.png</file>
+        <file>img/drawback.png</file>
+        <file>img/hide.png</file>
+        <file>img/show.png</file>
+        <file>myico.ico</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>my5.qss</file>
+        <file>my1.qss</file>
+        <file>my2.qss</file>
+        <file>my3.qss</file>
+        <file>my4.qss</file>
+        <file>my.qss</file>
+    </qresource>
+</RCC>
